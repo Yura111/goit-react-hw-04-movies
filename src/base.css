@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+header{
+
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid gray;
+}
+
+header ul > li{
+    padding: 15px 15px;
+    color: #000;
+    font-size: 20px;
+}
+
+
+.NavLink{
+    color:#000;
+    text-decoration: none;
+}
+
+.NavLink--active{
+    color:red;
+    font-weight: bold;
+}
+
+.flextwo{
+    display: flex;
+    margin: 8px;
+}
+
+.flextwo > div:nth-child(2){
+    padding: 8px;
+}
+
+.genres > span{
+    padding-right: 10px;
+}
+
+.movieItems{
+    list-style-type: none;
+}
+.movieItems > li{
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.movieItems > li > a{
+    display: flex;
+    align-items: center;
+}
+
+.movieItems img{
+    width: 80px;
+    margin-right: 10px;
+}
